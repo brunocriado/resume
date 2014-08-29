@@ -2,5 +2,8 @@
 *~
 \#*#
 
+# Folders #
+auto/
+
 # Compilation files #
 *.log
