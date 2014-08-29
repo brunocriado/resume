@@ -1,0 +1,136 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res}
+\usepackage [brazil]{babel}     % Nomes e hifenação em português
+
+\usepackage{t1enc}              % Permite digitar os acentos de forma normal
+\usepackage[utf8]{inputenc}
+
+\usepackage{hyperref} % hyperlinks
+
+\topmargin=-0.5in  % start text higher on the page
+\setlength{\textheight}{10in} % increase text height to fit resume on 1 page
+\begin{document}
+\name{\textit{Geyslan Gregório Bem}}
+
+\address{Juazeiro do Norte, Brazil \\ \href{mailto:geyslan@gmail.com}{geyslan@gmail.com} \\ Phone: 55 88 9617 0441 \\ Postal Code: 63034-100 }
+
+
+\begin{resume}
+
+\section{Summary}  Graduating in computer science having expertise in software development, great professional relationship
+                        and focused at work. With more than 10 years of experience in development and 3 using basically C and
+                        Assembly languages and Linux platform. Looking now for new challenges and opportunities that allow him to learn
+                        new technologies and work with new people. With great interest in software development (Assembly, C/C++, Python,
+                        Ruby, ShellScript, Lisp), mainly in linux kernel development.
+
+                        Open Source developer contributing in projects like: Linux, OSv, Metasploit, radix, SLAE, uzumaki,
+                        C in Fork Book etc.
+
+                        By 2013 began studying the Linux Kernel by code analysis. Contributed effectively in patching several bugs
+                        as well as improving its code.
+
+                        Recently (2014), started to contribute with the OSv Kernel as well.
+
+\section{Education}	Universidade Estácio de Sá, Graduating in Computer Science.
+
+\section{Experience}
+
+\vspace{-0.1in}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{Open Source Developer}    \>\>\textbf{Jan 2013 - Present}\\
+    \textit{Random hacking}\\
+    \textbf{Kernel hacking}: Linux and OSv;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+    Studying over OSDev and kernel internals that lead him to contribute sending patches to Linux Kernel and after to the new OSv kernel
+    for clouds.
+
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{Tribunal Regional do Trabalho da 7ª Região}    \>\>\textbf{Oct 2012 - Present}\\
+    \textit{Judiciary Technician}\\
+    \textbf{Government Employee}: Director's Assistant;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+    Analysis of court cases and decisions that depends on the responsibility of how to know to enforce the federal law.
+    And maintenance on computer equipment, as a sport.
+
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{Bradesco Bank}    \>\>\textbf{Jan 2007 - Jul 2012}\\
+    \textit{Executive Commercial Manager}\\
+    \textbf{Bank Executive};
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+    Coordinated 72 bank agencies. Besides the formal banking attributions, developed excel sheets (VBA macros) to automatically track
+    the diary agencies results by e-mail. Before assuming that role, was Administrative Manager in two agencies and Administrative
+    Supervisor.
+
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{Diretorium Informática}    \>\>\textbf{Set 2008 - Dec 2011}\\
+    \textit{Software Engineer}\\
+    \textbf{Main Technologies}: Delphi, Object Pascal, C, Paradox, Firebird, DBMS;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+
+    Member of a team responsible to design and develop three commercial systems:
+
+      * Developed SALE (Sistema de Acompanhamento de Logística e Estoque), a software program for control logistics and
+        product stock. The SALE runs in Windows platform and was developed using Delphi with Firebird.
+
+      * Help improve and correct bugs in SEV (Sistema de Estoque e Vendas), a software program for stock and sales control.
+        Runs in Windows and was developed using Delphi with Paradox.
+
+      * Improvement of Lockar, a movie rent system that runs in Windows. Lockar was developed using Delphi with Paradox.
+        It initiated as commercial software but after was deployed as freeware.
+
+      Other activities involved: Operating system and network administration, Delphi and C development, debugging, profiling,
+      code analysis etc.
+
+\section{Skills Base} \textit{Operating System}: Linux (Debian, Ubuntu, Arch Linux), Windows NT/XP/Vista/7;
+
+			\textit{Networkings}: TCP/IP protocol suite;
+
+			\textit{Progamming Languages}: C/C++, Pascal, Python, ShellScript, eLisp, plus some experience in Ruby;
+
+			\textit{Virtualization}: VirtualBox and qemu;
+
+			\textit{Languages}: Fluent in Portuguese, Intermediate in English and Elementary in Japanese (Phonetic
+                                            Syllabaries);
+
+\section{Open Source Projects}
+		\begin{itemize}
+		    \vspace{2mm}
+                    \item \textbf{SLAE}: Security Linux Assembly Expert course assignments. All seven assignments accomplished with
+                                         merit. This project resulted in the creation of some of the smaller shellcodes of its kind
+                                         in the world. Smaller than those present in Metasploit. Eg. Tiny Shell Bind TCP and Shell Bind
+                                         TCP Random Port (latter is unique of its kind).\newline
+                                         (\url{https://github.com/geyslan/SLAE})\vspace{1mm}
+
+		    \item \textbf{radix}: A kernel project for academic purposes that uses grub and its multiboot support.
+                                          It is maintened by radix-kernel organization.\newline
+                                          (\url{https://github.com/radix-kernel/radix})\vspace{1mm}
+
+		    \item \textbf{uzumaki}: A simple Emacs buffers cycler that optimize the swapping between open buffers in that famous
+                                            editor.\newline
+                                            (\url{https://github.com/geyslan/uzumaki})\vspace{1mm}
+
+		    \item \textbf{C in Fork Book}: It is a pilot project to write a book about the C programming language addressing
+                                                   beginners in computers. It will be originally written in Portuguese but with plans
+                                                   to be translated into English.\newline
+                                                   (\url{https://github.com/c0defellas/c.in.fork.book})
+		\end{itemize}
+
+\section{More Info}
+    \begin{itemize}
+        \item \textbf{Linkedin}: \url{http://www.linkedin.com/in/geyslan}
+         \item \textbf{Github}: \url{https://github.com/geyslan}
+         \item \textbf{Personal page}: \url{http://www.hackingbits.com}
+    \end{itemize}
+
+\end{resume}
+\end{document}
