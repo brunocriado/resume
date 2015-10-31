@@ -1,18 +1,24 @@
-TEXCMD = pdflatex -shell-escape
-BIN = *.log
-TEXFILE=geyslan_bem_en.tex
-PDFFILE=geyslan_bem_en.pdf
+TEXCMD=pdflatex -shell-escape
+FILE=geyslan_bem_en
+BINFILE=$(FILE)
+ASMFILE=$(FILE).asm
+TEXFILE=$(FILE).tex
+PDFFILE=$(FILE).pdf
+TMP=*.log *.o $(BINFILE) $(PDFFILE)
 
-.PHONY: $(PDFFILE)
-
+all: $(BINFILE) $(PDFFILE)
 
 $(PDFFILE): $(TEXFILE)
 	$(TEXCMD) $(TEXFILE)
 
-view: $(PDFFILE)
+$(BINFILE): $(ASMFILE)
+	nasm -f elf64 $(ASMFILE) -o $(BINFILE).o
+	ld $(BINFILE).o -o $(BINFILE);
+
+view-pdf: $(PDFFILE)
 	evince $(PDFFILE)
 
+view-asm: $(BINFILE)
+	./$(BINFILE)
 clean:
-	rm -f $(BIN) $(PDFFILE)
-
-
+	rm -f $(TMP)
