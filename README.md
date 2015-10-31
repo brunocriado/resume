@@ -2,8 +2,10 @@ Geyslan Gregório Bem
 ====================
 
 My CV is available in this repository in these formats:
-PDF: [geyslan_bem_en.pdf](https://github.com/geyslan/cv/raw/master/geyslan_bem_en.pdf)
-ASM: [geyslan_bem_en.asm](https://github.com/geyslan/cv/raw/master/geyslan_bem_en.asm)
+
+**PDF**: [geyslan_bem_en.pdf](https://github.com/geyslan/cv/raw/master/geyslan_bem_en.pdf)
+
+**ASM**: [geyslan_bem_en.asm](https://github.com/geyslan/cv/raw/master/geyslan_bem_en.asm)
 
 Requirements
 ------------
@@ -26,11 +28,7 @@ Compiling:
 
 Viewing:
 
-`make view-pdf`
-
-or
-
-`make view-asm`
+`make view-pdf` or `make view-asm`
 
 Cleaning (objects):
 
