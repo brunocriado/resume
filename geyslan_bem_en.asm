@@ -72,12 +72,12 @@ experience db	'- Open Source Developer (Jan 2013 - Present)', 0xa, \
 		'  commercial systems:', 0xa, \
 		0xa, \
 		'  * Developed SALE (Sistema de Acompanhamento de Logística e', 0xa, \
-		'  Estoque), a software program for control logistics and product', 0xa, \
+		'  Estoque), a software for control logistics and product', 0xa, \
 		'  stock. The SALE runs in Windows platform and was developed', 0xa, \
 		'  using Delphi with Firebird.', 0xa, \
 		0xa, \
-		'  * Assisted to improve and correct bugs in SEV (Sistema de Estoque e', 0xa, \
-		'  Vendas), a software program for stock and sales control. Runs in', 0xa, \
+		'  * Assisted to improve and to correct bugs in SEV (Sistema de Estoque e', 0xa, \
+		'  Vendas), a software for stock and sales control. Runs in', 0xa, \
 		'  Windows and was developed using Delphi with Paradox.', 0xa, \
 		0xa, \
 		'  * Improvement of Lockar, a movie rent system that runs in', 0xa, \
