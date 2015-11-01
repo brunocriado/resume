@@ -4,7 +4,7 @@ BINFILE=$(FILE)
 ASMFILE=$(FILE).asm
 TEXFILE=$(FILE).tex
 PDFFILE=$(FILE).pdf
-TMP=*.log *.o $(BINFILE) $(PDFFILE)
+TMP=*.log *.o $(BINFILE)
 
 all: $(BINFILE) $(PDFFILE)
 
