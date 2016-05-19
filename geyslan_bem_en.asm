@@ -32,8 +32,7 @@ summary db	'Summary', 0xa, \
 		'  platform. Looking now for new challenges and opportunities', 0xa, \
 		'  that allow him to learn new technologies and work with new', 0xa, \
 		'  people. With great interest in software development (Assembly,', 0xa, \
-		'  C/C++, Python, Shell script, Lisp, Ruby), mainly in linux', 0xa, \
-		'  kernel development.', 0xa, 0xa
+		'  C, Lisp, Shell script), mainly in linux kernel development.', 0xa, 0xa
 	
 education db	'Education', 0xa, \
 		0xa, \
@@ -95,8 +94,8 @@ skills db	'Skills Base', 0xa, \
 		0xa, \
 		'  Network: TCP/IP protocol suite, openssh;', 0xa, \
 		0xa, \
-		'  Progamming Languages: C/C++, Pascal, Python, Shell script,', 0xa, \
-		'  Emacs Lisp plus some experience in Ruby;', 0xa, \
+		'  Progamming Languages: Assembly, C, Pascal, Shell script,', 0xa, \
+		'  Emacs Lisp plus some experience in Common Lisp;', 0xa, \
 		0xa, \
 		'  Virtualization: VirtualBox and qemu;', 0xa, \
 		0xa, \
@@ -128,7 +127,7 @@ open_source db	'Open Source Projects', 0xa, \
 		0xa, \
 		'  • C in Fork Book: It is a C programming language book project focused', 0xa, \
 		'  in beginners in computers. It is being written in Portuguese', 0xa, \
-		'  but with plans to be translated into English.', 0xa, \
+		'  but with plans to be translated into English (paused due lack of collaboration).', 0xa, \
 		'  (https://github.com/c0defellas/c.in.fork.book)', 0xa, 0xa
 
 more_info db	'More Info', 0xa, \
