@@ -25,7 +25,7 @@ cv db		0xa, \
 	
 summary db	'Summary', 0xa, \
 		0xa, \
-		'  Graduating in Computer area having expertise in software', 0xa, \
+		'  Graduate in Computer area having expertise in software', 0xa, \
 		'  development, great professional relationship and focused at', 0xa, \
 		'  work. With more than 10 years of experience in development and', 0xa, \
 		'  5 using basically C and Assembly languages on Linux', 0xa, \
@@ -37,7 +37,7 @@ summary db	'Summary', 0xa, \
 education db	'Education', 0xa, \
 		0xa, \
 		'  Universidade Estácio de Sá,', 0xa, \
-		'  Graduating in Computer Programming and System Analysis.', 0xa, 0xa
+		'  Graduate in Computer Programming and System Analysis.', 0xa, 0xa
 
 experience db	'- Open Source Developer (Jan 2013 - Present)', 0xa, \
 		'  Random hacking', 0xa, \
@@ -114,9 +114,9 @@ open_source db	'Open Source Projects', 0xa, \
 		'  unique).', 0xa, \
 		'  (https://github.com/geyslan/SLAE)', 0xa, \
 		0xa, \
-		'  • radix: A kernel project for academic purposes that uses grub and its', 0xa, \
+		'  • cernyx: A kernel project for academic purposes that uses grub and its', 0xa, \
 		'  multiboot support.', 0xa, \
-		'  (https://github.com/geyslan/radix)', 0xa, \
+		'  (https://github.com/geyslan/cernyx)', 0xa, \
 		0xa, \
 		'  • uzumaki: A simple Emacs buffers cycler that optimize the swapping', 0xa, \
 		'  between open buffers in this famous editor.', 0xa, \
