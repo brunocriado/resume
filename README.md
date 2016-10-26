@@ -10,12 +10,12 @@ My CV is available in this repository in these formats:
 Requirements
 ------------
 
-* Arch Linux packages for build the TEX version:
+* Arch Linux packages to build the TEX version:
 
  `pacman -S texlive-bin texlive-core texlive-science texlive-latexextra
  texlive-bibtexextra`
 
-* Arch Linux packages for build the ASM version:
+* Arch Linux packages to build the ASM version:
 
  `pacman -S base-devel nasm`
 
