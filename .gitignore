@@ -6,6 +6,6 @@
 auto/
 
 # Compilation files #
-geyslan_bem_en
 *.log
-*.o
+*.aux
+*.out
