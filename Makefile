@@ -1,5 +1,5 @@
 TEXCMD=pdflatex -shell-escape
-FILE=geyslan_bem_en
+FILE=bruno_criado_en
 TEXFILE=$(FILE).tex
 PDFFILE=$(FILE).pdf
 TMP=*.log *.aux *.out
