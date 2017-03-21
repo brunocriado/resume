@@ -1,11 +1,9 @@
-Geyslan Gregório Bem
-====================
+Bruno Criado
+============
 
 My CV is available in this repository in these formats:
 
-**PDF**: [geyslan_bem_en.pdf](https://github.com/geyslan/cv/raw/master/geyslan_bem_en.pdf)
-
-**ASM**: [geyslan_bem_en.asm](https://github.com/geyslan/cv/raw/master/geyslan_bem_en.asm)
+**PDF**: [bruno_criado_en.pdf](https://github.com/dropped/cv/raw/master/bruno_criado_en.pdf)
 
 Requirements
 ------------
@@ -14,10 +12,6 @@ Requirements
 
  `pacman -S texlive-bin texlive-core texlive-science texlive-latexextra
  texlive-bibtexextra`
-
-* Arch Linux packages to build the ASM version:
-
- `pacman -S base-devel nasm`
 
 Building and Viewing
 --------------------
