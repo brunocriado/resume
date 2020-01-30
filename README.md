@@ -1,9 +1,9 @@
 Bruno Criado
 ============
 
-My CV is available in this repository in these formats:
+My resume is available in this repository in these formats:
 
-**PDF**: [bruno_criado_en.pdf](https://github.com/dropped/cv/raw/master/bruno_criado_en.pdf)
+**PDF**: [bruno_criado_en.pdf](https://github.com/dropped/resume/raw/master/bruno_criado_en.pdf)
 
 Requirements
 ------------
