@@ -2,9 +2,7 @@
 % This file uses the resume document class (res.cls)
 
 \documentclass[margin]{res}
-\usepackage [brazil]{babel}     % Nomes e hifenação em português
 
-\usepackage{t1enc}              % Permite digitar os acentos de forma normal
 \usepackage[utf8]{inputenc}
 
 \usepackage{hyperref} % hyperlinks
@@ -14,28 +12,47 @@
 \begin{document}
 \name{\textit{Bruno Criado}}
 
-\address{Pederneiras, SP, Brazil \\
-  \href{mailto:brunocriado@gmail.com}{brunocriado@gmail.com} \\ Phone: 55 14 98136 8331}
+\address{Winnipeg, MB, Canada \\
+  \href{mailto:brunocriado@gmail.com}{brunocriado@gmail.com} \\ Phone: +1 431 588 3334}
 
 
 \begin{resume}
 
-  \section{Summary} Graduate in Information Security with more than 12 years
-  experience in IT infrastructure and software development, looking for new
-  challenges and opportunities that allow him to learn new technologies share
-  skills and work with new people.
+  \section{Summary} Seasoned Infrastructure Engineer with over a decade of experience working mostly with Servers and Services
+  Management, Scripting, IT Networking and, since 2015, working closely with Cloud Computing, Microservices and Infrastructure as Code.\\
+  For 3 years worked as Backend Software Engineer using Python and C language with focus on Linux Operating System Management.\\
+  Also, in 2014, got a Post-Secondary Degree in Information Security by the Catholic University of Brasilia in Brazil.
 
-  \section{Education} Catholic University of Brasilia, Associate Degree in Information
+  \section{Skills Base}
+  \textit{Programming Languages}: Python, C\\
+  \textit{Configuration Management Tools}: Ansible, SaltStack\\
+  \textit{Orchestration/Provisioning Tools}: Terraform, SaltStack\\
+  \textit{Container Tools}: Docker, Docker Swarm, Registry\\
+  \textit{Cloud Computing}: AWS, Digital Ocean, OpenStack\\
+  \textit{CI/CD}: Jenkins, Blue/Green Deployment Strategy, Canary Deployment Strategy\\
+  \textit{Monitoring}: ELK Stack, Grafana, Prometheus/Alertmanager Stack, Sensu\\
+
+  \section{Education} Catholic University of Brasilia, Post-Secondary Degree in Information
   Security
 
-
-\section{Industry Experience}
-
+  \section{Industry Experience}
 
 \vspace{-0.1in}
 \begin{tabbing}
   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
-  \textbf{Infrastructure Developer}    \>\>\textbf{Nov 2015 - Present}\\
+  \textbf{Site Reliability Engineer (SRE)}    \>\>\textbf{Aug 2018 - Present}\\
+  \textit{SkipTheDishes} - \url{https://www.skipthedishes.com}\\\\
+  \textbf{Main Technologies}: AWS, Python, terraform, Prometheus, Graphite, Grafana
+\end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+\vspace{2mm}\textbf{Responsibilities}: \\*
+  - Providing visibility of our production services through metrics and graphs. \\*
+  - Automation of menial tasks helping out developers in deployment and migration tasks \\*
+  - Being solution oriented and sharing ownership with developers \\
+
+\vspace{-0.1in}
+\begin{tabbing}
+  \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+  \textbf{Infrastructure Developer}    \>\>\textbf{Nov 2015 - Mar 2018}\\
   \textit{Flugel.it} - \url{https://www.flugel.it}\\\\
   \textbf{Main Technologies}: AWS, Python, terraform, ansible, ELK Stack,\\*
   DevOps Tools, Docker
@@ -43,7 +60,7 @@
 \vspace{2mm}\textbf{Responsibilities}: \\*
   - Automating and implementing solutions using script languages and DevOps Tools \\*
   - Creating and developing system to aggregate value to client products \\*
-  - Delivering Infrastructure\\
+  - Building and Deploying Infrastructure\\
 
 \vspace{-0.1in}
 \begin{tabbing}
@@ -57,6 +74,7 @@
 on storage virtualization \\*
   - Maintaining a Linux distribution for hard drive imaging purpose \\*
   - Developing products for managing classrooms\\
+  \\
 
 \vspace{-0.1in}
 \begin{tabbing}
@@ -121,28 +139,12 @@ on storage virtualization \\*
 \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
 
 
-\section{Skills Base}
-\textit{Programming Languages}: C, Python
-
-\textit{Configuration Management Tools}: Ansible, saltstack
-
-\textit{Orchestration/Provisioning Tools}: Terraform, SaltStack
-
-\textit{Container Tools}: Docker, Docker Swarm, Registry
-
-\textit{Virtualization}: VirtualBox/vagrant, qemu/KVM, VMWare, libvirt, libguestfs, LXC
-
-\textit{Cloud}: AWS, Digital Ocean, OpenStack
-
-\textit{CI/CD}: Jenkins, Blue/Green Deployment, Canary
-
-\textit{Monitoring}: ELK Stack, Grafana, Prometheus, CloudWatch, Sensu
 
 
 \section{More Info}
 \begin{itemize}
 \item \textbf{Linkedin}: \url{http://www.linkedin.com/in/brunocriado}
-\item \textbf{Github}: \url{https://github.com/dropped}
+\item \textbf{Github}: \url{https://github.com/brunocriado}
 \end{itemize}
 
 \end{resume}
