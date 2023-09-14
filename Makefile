@@ -1,5 +1,5 @@
 TEXCMD=pdflatex -shell-escape
-FILE=bruno_criado_en
+FILE=brunocriado
 TEXFILE=$(FILE).tex
 PDFFILE=$(FILE).pdf
 TMP=*.log *.aux *.out
@@ -10,7 +10,7 @@ $(PDFFILE): $(TEXFILE)
 	$(TEXCMD) $(TEXFILE)
 
 view-pdf: $(PDFFILE)
-	evince $(PDFFILE)
+	sioyek $(PDFFILE)
 
 clean:
 	rm -f $(TMP)
